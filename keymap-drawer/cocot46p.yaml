@@ -37,7 +37,7 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - B
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: Lower}
