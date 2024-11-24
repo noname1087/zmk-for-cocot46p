@@ -66,7 +66,7 @@
         Lower {
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                  &kp NUMBER_6  &kp N7     &kp N8     &kp N9  &kp N0   &trans
-&trans  &trans        &trans        &trans        &trans        &trans                  &kp MINUS     &kp EQUAL  &kp GRAVE  &trans  &kp SQT  &trans
+&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                  &kp MINUS     &kp EQUAL  &kp GRAVE  &trans  &kp SQT  &trans
 &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans        &trans     &trans     &trans  &trans   &trans
                                     &trans        &trans        &trans  &trans  &trans  &kp RSHFT     &trans     &trans     &trans
             >;
@@ -98,10 +98,10 @@
 
         Snipe {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &mkp MB4  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &mkp MB5  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans    &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans
             >;
 
             label = "Snipe";
