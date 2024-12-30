@@ -50,24 +50,10 @@
     };
 
     macros {
-        mypassword: mypassword {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(T) &kp X &kp X &kp N2 &kp N7 &kp N1 &kp N3 &kp N1 &kp DOT &kp RET>;
-            label = "MYPASSWORD";
-        };
-
-        myAP: myAP {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp O &kp N &kp G &kp X &kp X &kp N0 &kp N1 &kp TAB &kp LS(T) &kp X &kp X &kp N2 &kp N7 &kp N1 &kp N3 &kp N1 &kp DOT &kp RET>;
-            label = "MYAP";
-        };
-
         my_P: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(T) &kp X &kp X &kp N2 &kp N7 &kp N1 &kp N3 &kp N1 &kp DOT>;
+            bindings = <&none &kp DOT>;
             label = "NEW_MACRO";
         };
     };
