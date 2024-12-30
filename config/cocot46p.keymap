@@ -49,15 +49,6 @@
         };
     };
 
-    macros {
-        my_P: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp DOT>;
-            label = "NEW_MACRO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
