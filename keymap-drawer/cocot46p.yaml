@@ -102,7 +102,7 @@ layers:
   - KP 8
   - KP 9
   - KP 0
-  - A
+  - B
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
