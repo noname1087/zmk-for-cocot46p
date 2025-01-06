@@ -49,6 +49,22 @@
         };
     };
 
+    macros {
+        new_macro1: new_macro1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(T) &kp X &kp X &kp N2 &kp N7 &kp N1 &kp N3 &kp N1 &kp DOT &kp RET>;
+            label = "NEW_MACRO1";
+        };
+
+        new_macro2: new_macro2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp T &kp O &kp N &kp G &kp X &kp X &kp N0 &kp N1 &kp TAB &kp LS(T) &kp X &kp X &kp N2 &kp N7 &kp N1 &kp N3 &kp N1 &kp DOT &kp RET>;
+            label = "NEW_MACRO2";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -77,10 +93,10 @@
 
         Raise {
             bindings = <
-&kp KP_NUM     &kp ESC   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                  &kp B   &trans    &kp UP_ARROW    &trans     &trans  &trans
-&kp PAGE_UP    &kp CAPS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp AT_SIGN                      &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&kp PAGE_DOWN  &kp DEL   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans  &trans  &trans  &trans    &trans          &trans     &trans  &trans
-                                          &trans           &trans           &trans           &trans  &trans  &trans  &trans    &trans          &trans
+&kp KP_NUM     &kp ESC   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                  &new_macro1  &trans    &kp UP_ARROW    &trans     &trans  &trans
+&kp PAGE_UP    &kp CAPS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp AT_SIGN                      &new_macro2  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&kp PAGE_DOWN  &kp DEL   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans  &trans  &trans       &trans    &trans          &trans     &trans  &trans
+                                          &trans           &trans           &trans           &trans  &trans  &trans       &trans    &trans          &trans
             >;
 
             label = "Raise";
