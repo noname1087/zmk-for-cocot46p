@@ -96,12 +96,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Raise:
-  - KP NUM
-  - $$mdi:keyboard-esc$$
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
+  - HOME
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - '&new_macro1'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
@@ -109,11 +109,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
-  - $$mdi:apple-keyboard-caps$$
-  - KP 4
-  - KP 5
-  - KP 6
-  - '@'
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: /, s: '?'}
+  - KP MULTIPLY
   - '&new_macro2'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -121,11 +121,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
-  - $$mdi:backspace-reverse-outline$$
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: ., s: '>'}
+  - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
